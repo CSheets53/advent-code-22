@@ -4,15 +4,6 @@ with open("./inputs/d4.txt") as f:
     for line in f:
         assignment_pairs.append(line[:-1]) # cut \n
 
-# assignment_pairs = [
-#     '2-4,6-8',
-# '2-3,4-5',
-# '5-7,7-9',
-# '2-8,3-7',
-# '6-6,4-6',
-# '2-6,4-8',
-# ]
-
 def part1():
     fully_contained_count = 0
 
